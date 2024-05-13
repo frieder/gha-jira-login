@@ -1,0 +1,17 @@
+name: Atlassian Jira Login
+description: |
+  Attempts a login to Atlassian Jira and stores credentials on disk (drop-in replacement of Atlassian action).
+author: frieder
+branding:
+  icon: log-in
+  color: black
+inputs:
+  baseUrl:
+    description: The URL of the Jira instance
+  email:
+    description: The email address to use for authentication
+  token:
+    description: The API token to use for authentication
+runs:
+  using: "node20"
+  main: "./dist/index.js"

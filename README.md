@@ -1,7 +1,6 @@
 # Github Action - Jira Login
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/frieder/gha-jira-login/pr.yml?label=Build%20Status)](https://github.com/frieder/gha-jira-login/actions/workflows/pr.yml)
-[![Sonar Coverage](https://img.shields.io/sonar/coverage/frieder_gha-jira-login/main?server=https%3A%2F%2Fsonarcloud.io&label=Code%20Coverage)](https://sonarcloud.io/project/overview?id=frieder_gha-jira-login)
 [![Open Issues](https://img.shields.io/github/issues-raw/frieder/gha-jira-login?label=Open%20Issues)](https://github.com/frieder/gha-jira-login/issues?q=is%3Aopen+is%3Aissue)
 [![Sonar Issues](https://img.shields.io/sonar/violations/frieder_gha-jira-login/main?format=long&server=https%3A%2F%2Fsonarcloud.io&label=Sonar%20Violations)](https://sonarcloud.io/project/overview?id=frieder_gha-jira-login)
 [![Known Vulnerabilities](https://snyk.io/test/github/frieder/gha-jira-login/badge.svg)](https://snyk.io/test/github/frieder/gha-jira-login)

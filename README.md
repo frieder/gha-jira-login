@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Jira Login
-        uses: frieder/jira-login@v1
+        uses: frieder/gha-jira-login@v1
         with:
           baseUrl: ${{ secrets.JIRA_URL }}
           email: ${{ secrets.JIRA_EMAIL }}

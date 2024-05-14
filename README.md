@@ -1,13 +1,18 @@
 # Github Action - Jira Login
 
+[![Build Status](https://img.shields.io/github/actions/workflow/status/frieder/gha-jira-login/pr.yml?label=Build%20Status)](https://github.com/frieder/gha-jira-login/actions/workflows/pr.yml)
+[![Sonar Coverage](https://img.shields.io/sonar/coverage/frieder_gha-jira-login/main?server=https%3A%2F%2Fsonarcloud.io&label=Code%20Coverage)](https://sonarcloud.io/project/overview?id=frieder_gha-jira-login)
+[![Open Issues](https://img.shields.io/github/issues-raw/frieder/gha-jira-login?label=Open%20Issues)](https://github.com/frieder/gha-jira-login/issues?q=is%3Aopen+is%3Aissue)
+[![Sonar Issues](https://img.shields.io/sonar/violations/frieder_gha-jira-login/main?format=long&server=https%3A%2F%2Fsonarcloud.io&label=Sonar%20Violations)](https://sonarcloud.io/project/overview?id=frieder_gha-jira-login)
+[![Known Vulnerabilities](https://snyk.io/test/github/frieder/gha-jira-login/badge.svg)](https://snyk.io/test/github/frieder/gha-jira-login)
+
 A Github action that takes access credentials and verifies them again Jira REST API.
 Upon successful login, the credentials are stored locally in `~/jira/config.yml`.
 This behavior is in line with how [atlassian/gajira-login](https://github.com/marketplace/actions/jira-login) 
 works to act as a drop-in replacement.
 
-> Atlassian's Github actions are no longer actively maintained. This is an issue since
-> they are built with Node v16, which has been marked by Github as deprecated and will
-> soon get removed.
+> Atlassian does not maintain its Github actions anymore. This is an issue since they are
+> built with Node v16, which has been marked deprecated by Github and will soon get removed.
 
 Instead of just writing the data to the file, it performs a login attempt to verify the
 provided credentials. This allows to fail early if the credentials are incorrect.

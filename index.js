@@ -4,7 +4,7 @@ const axiosRetry = require("axios-retry").default;
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
-const yaml = require("js-yaml");
+const yaml = require("yaml");
 
 (async function () {
     const args = parseInputs();
@@ -82,5 +82,5 @@ function writeCredentialsToDisk(args) {
         token: args.token,
     };
 
-    fs.writeFileSync(configFile, yaml.dump(data));
+    fs.writeFileSync(configFile, yaml.stringify(data));
 }

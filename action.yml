@@ -1,6 +1,5 @@
 name: Atlassian Jira Login
-description: |
-  Attempts a login to Atlassian Jira and stores credentials on disk (drop-in replacement of Atlassian action).
+description: Login to Atlassian Jira (Cloud).
 author: frieder
 branding:
   icon: log-in

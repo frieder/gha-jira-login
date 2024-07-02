@@ -24,7 +24,7 @@
         "yaml": "^2.4.5"
     },
     "devDependencies": {
-        "esbuild": "^0.22.0",
+        "esbuild": "^0.23.0",
         "eslint": "^8.57.0",
         "pre-commit": "^1.2.2",
         "prettier": "^3.3.2"

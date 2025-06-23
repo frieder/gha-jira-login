@@ -27,7 +27,7 @@
         "esbuild": "^0.25.5",
         "eslint": "^8.57.0",
         "pre-commit": "^1.2.2",
-        "prettier": "^3.5.3"
+        "prettier": "^3.6.0"
     },
     "engines": {
         "node": ">=20",
